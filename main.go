@@ -41,10 +41,10 @@ func main() {
 		fmt.Println("Day 5 Part 2")
 		fmt.Println(solutions.Day5Part2())
 	case "6":
-		//fmt.Println("Day 6 Part 1")
-		//fmt.Println(solutions.Day6Part1())
-		//fmt.Println("Day 6 Part 2")
-		//fmt.Println(solutions.Day6Part2())
+		fmt.Println("Day 6 Part 1")
+		fmt.Println(solutions.Day6Part1())
+		fmt.Println("Day 6 Part 2")
+		fmt.Println(solutions.Day6Part2())
 	case "7":
 		//fmt.Println("Day 7 Part 1")
 		//fmt.Println(solutions.Day7Part1())
