@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// TimelineEntity ...
 type TimelineEntity struct {
 	TimeString  string
 	Minutes     int
@@ -18,6 +19,7 @@ type TimelineEntity struct {
 	GuardNumber string
 }
 
+// Day4Part1 ...
 func Day4Part1() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day4.txt"))
 	if err != nil {
@@ -84,6 +86,7 @@ func Day4Part1() int {
 	return maxGuardInt * maxMinute
 }
 
+// Day4Part2 ...
 func Day4Part2() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day4.txt"))
 	if err != nil {

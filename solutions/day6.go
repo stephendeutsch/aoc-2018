@@ -9,11 +9,12 @@ import (
 	"strings"
 )
 
-type Cell struct {
+type cell struct {
 	Loc  [2]int
 	Dist int
 }
 
+// Day6Part1 ...
 func Day6Part1() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day6.txt"))
 	if err != nil {
@@ -33,7 +34,7 @@ func Day6Part1() int {
 		notInfiniteLocs[[2]int{x, y}] = true
 	}
 	const fieldSize = 375
-	var field [fieldSize][fieldSize]Cell
+	var field [fieldSize][fieldSize]cell
 	for x, row := range field {
 		for y := range row {
 			var minLoc [2]int
@@ -73,6 +74,7 @@ func Day6Part1() int {
 	return maxSize
 }
 
+// Day6Part2 ...
 func Day6Part2() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day6.txt"))
 	if err != nil {
@@ -89,7 +91,7 @@ func Day6Part2() int {
 		locs = append(locs, [2]int{x, y})
 	}
 	const fieldSize = 375
-	var field [fieldSize][fieldSize]Cell
+	var field [fieldSize][fieldSize]cell
 	lessThan10000Area := 0
 	for x, row := range field {
 		for y := range row {
@@ -105,6 +107,7 @@ func Day6Part2() int {
 	return lessThan10000Area
 }
 
+// Abs ...
 func Abs(x int) int {
 	if x < 0 {
 		return -x

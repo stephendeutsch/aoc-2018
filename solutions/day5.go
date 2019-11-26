@@ -10,6 +10,7 @@ import (
 	"strings"
 )
 
+// Day5Part1 ...
 func Day5Part1() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day5.txt"))
 	if err != nil {
@@ -37,6 +38,7 @@ func Day5Part1() int {
 	return len(b) - 1 // -1 because of space added at beginning to prevent out of range
 }
 
+// Day5Part2 ...
 func Day5Part2() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day5.txt"))
 	if err != nil {

@@ -8,6 +8,7 @@ import (
 	"strings"
 )
 
+// Day2Part1 ...
 func Day2Part1() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day2.txt"))
 	if err != nil {
@@ -40,6 +41,7 @@ func Day2Part1() int {
 	return checksum
 }
 
+// Day2Part2 ...
 func Day2Part2() string {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day2.txt"))
 	if err != nil {

@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// Day1Part1 ...
 func Day1Part1() int {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day1.txt"))
 	if err != nil {
@@ -25,6 +26,7 @@ func Day1Part1() int {
 	return count
 }
 
+// Day1Part2 ...
 func Day1Part2() (int, error) {
 	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day1.txt"))
 	if err != nil {
