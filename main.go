@@ -1,7 +1,7 @@
 package main
 
 import (
-	"aoc/solutions"
+	"aoc-2018/solutions"
 	"flag"
 	"fmt"
 )

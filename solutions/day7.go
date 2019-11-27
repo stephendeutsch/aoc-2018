@@ -20,7 +20,7 @@ type op struct {
 
 // Day7Part1 ...
 func Day7Part1() string {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day7.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day7.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}
@@ -69,7 +69,7 @@ func Day7Part1() string {
 
 // Day7Part2 ...
 func Day7Part2() string {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day7.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day7.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}

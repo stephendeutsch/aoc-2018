@@ -16,7 +16,7 @@ type cell struct {
 
 // Day6Part1 ...
 func Day6Part1() int {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day6.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day6.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}
@@ -76,7 +76,7 @@ func Day6Part1() int {
 
 // Day6Part2 ...
 func Day6Part2() int {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day6.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day6.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}

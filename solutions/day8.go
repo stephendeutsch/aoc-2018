@@ -19,7 +19,7 @@ var values []int
 
 // Day8Part1 ...
 func Day8Part1() string {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day8.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day8.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}
@@ -36,7 +36,7 @@ func Day8Part1() string {
 
 // Day8Part2 ...
 func Day8Part2() string {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day8.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day8.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}

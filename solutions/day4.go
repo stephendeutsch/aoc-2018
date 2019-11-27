@@ -21,7 +21,7 @@ type TimelineEntity struct {
 
 // Day4Part1 ...
 func Day4Part1() int {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day4.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day4.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}
@@ -88,7 +88,7 @@ func Day4Part1() int {
 
 // Day4Part2 ...
 func Day4Part2() int {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day4.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day4.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}

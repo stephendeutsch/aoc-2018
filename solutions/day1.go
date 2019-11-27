@@ -11,7 +11,7 @@ import (
 
 // Day1Part1 ...
 func Day1Part1() int {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day1.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day1.txt"))
 	if err != nil {
 		fmt.Print(err)
 	}
@@ -28,7 +28,7 @@ func Day1Part1() int {
 
 // Day1Part2 ...
 func Day1Part2() (int, error) {
-	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc/"+"day1.txt"))
+	b, err := ioutil.ReadFile(path.Join(os.Getenv("GOPATH"), "/src/aoc-2018/"+"day1.txt"))
 	if err != nil {
 		fmt.Println(err)
 	}
